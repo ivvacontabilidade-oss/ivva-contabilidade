@@ -24,7 +24,6 @@ export default function ContactForm() {
   placeholder="Seu nome"
 />
           </div>
-          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1">E-mail Corporativo</label>
@@ -47,7 +46,6 @@ export default function ContactForm() {
               />
             </div>
           </div>
-
           <div>
             <label htmlFor="company" className="block text-sm font-medium text-slate-700 mb-1">Nome da Empresa</label>
             <input
@@ -57,7 +55,6 @@ export default function ContactForm() {
               placeholder="Sua empresa"
             />
           </div>
-
           <div>
             <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-1">Como podemos ajudar?</label>
            <textarea
