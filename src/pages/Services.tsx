@@ -39,7 +39,7 @@ const services = [
     id: 'recuperacao',
     title: 'Recuperação de Créditos',
     description: 'Revisão fiscal dos últimos 5 anos para identificar pagamentos indevidos e solicitar a restituição ou compensação desses valores.',
-    features: ['Revisão fiscal administrativa', 'Créditos de PIS/COFINS', 'Créditos de ICMS', 'Restituição via PER/DCOMP'],
+    features: ['Revisão fiscal administrativa', 'Créditos de PIS/COFINS', 'Créditos de ICMS', 'Restituição via PERD/COMP'],
     icon: ShieldCheck,
     image: 'https://images.unsplash.com/photo-1579621970795-87facc2f976d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
   },
