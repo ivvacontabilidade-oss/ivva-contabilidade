@@ -15,24 +15,24 @@ export default function ContactForm() {
   <input type="hidden" name="_next" value="https://www.ivvacontabilidade.online/contato?enviado=1" />
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1">Nome Completo</label>
-            <input
+           <input
   type="text"
   id="name"
   name="name"
   required
-  className="..."
+  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
   placeholder="Seu nome"
 />
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1">E-mail Corporativo</label>
-              <input
+             <input
   type="email"
   id="email"
   name="email"
   required
-  className="..."
+  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
   placeholder="seu@email.com"
 />
             </div>
