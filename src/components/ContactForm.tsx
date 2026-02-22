@@ -16,7 +16,6 @@ export default function ContactForm() {
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1">Nome Completo</label>
             <input
-              <input
   type="text"
   id="name"
   name="name"
