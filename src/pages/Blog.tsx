@@ -1,47 +1,81 @@
 import { Calendar, User, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import SEO from '../components/SEO';
 
 const posts = [
-  {
-    id: 1,
-    title: 'Planejamento Tributário: Como pagar menos impostos legalmente',
-    excerpt: 'Descubra as estratégias legais para reduzir a carga tributária da sua empresa e aumentar a lucratividade no próximo ano fiscal.',
-    date: '20 Fev 2024',
-    author: 'Equipe IVVA',
-    category: 'Tributário',
-    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
-  },
-  {
-    id: 2,
-    title: 'Simples Nacional x Lucro Presumido: Qual o melhor?',
-    excerpt: 'Entenda as diferenças entre os regimes tributários e saiba como escolher a melhor opção para o perfil do seu negócio.',
-    date: '15 Fev 2024',
-    author: 'Equipe IVVA',
-    category: 'Empreendedorismo',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
-  },
-  {
-    id: 3,
-    title: 'A importância da Holding Patrimonial para proteção de bens',
-    excerpt: 'Saiba como uma Holding pode proteger seu patrimônio pessoal e facilitar o processo de sucessão familiar.',
-    date: '10 Fev 2024',
-    author: 'Equipe IVVA',
-    category: 'Gestão Patrimonial',
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
-  },
-  {
-    id: 4,
-    title: 'Distribuição de Lucros: Regras e Vantagens',
-    excerpt: 'Aprenda como funciona a distribuição de lucros isenta de impostos e como utilizá-la para remunerar os sócios.',
-    date: '05 Fev 2024',
-    author: 'Equipe IVVA',
-    category: 'Financeiro',
-    image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80'
-  }
+{
+  id: 1,
+  title: 'Planejamento Tributário: Como pagar menos impostos legalmente',
+  excerpt: 'Descubra as estratégias legais para reduzir a carga tributária da sua empresa e aumentar a lucratividade no próximo ano fiscal.',
+  date: '20 Fev 2024',
+  author: 'Equipe IVVA',
+  category: 'Tributário',
+  image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+  content: [
+    "O planejamento tributário é uma ferramenta estratégica que permite às empresas reduzir legalmente sua carga de impostos.",
+    "Ele consiste em analisar o regime tributário, a estrutura da empresa e a operação financeira para identificar oportunidades de economia.",
+    "Muitas empresas pagam mais impostos do que deveriam simplesmente por não realizarem simulações e análises periódicas.",
+    "Quando bem estruturado, o planejamento melhora o fluxo de caixa, reduz riscos fiscais e aumenta a previsibilidade financeira.",
+    "Se sua empresa nunca passou por uma análise estratégica, pode estar deixando dinheiro na mesa."
+  ]
+},
+{
+  id: 2,
+  title: 'Simples Nacional x Lucro Presumido: Qual o melhor?',
+  excerpt: 'Entenda as diferenças entre os regimes tributários e saiba como escolher a melhor opção para o perfil do seu negócio.',
+  date: '15 Fev 2024',
+  author: 'Equipe IVVA',
+  category: 'Empreendedorismo',
+  image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+  content: [
+    "A escolha do regime tributário impacta diretamente na lucratividade da empresa.",
+    "O Simples Nacional é indicado para empresas com faturamento até R$ 4,8 milhões anuais e oferece simplificação na apuração de tributos.",
+    "Já o Lucro Presumido pode ser mais vantajoso dependendo da margem de lucro e da atividade exercida.",
+    "Cada empresa possui características específicas que precisam ser analisadas antes da decisão.",
+    "Realizar uma simulação tributária é a maneira mais segura de escolher o regime ideal."
+  ]
+},
+{
+  id: 3,
+  title: 'A importância da Holding Patrimonial para proteção de bens',
+  excerpt: 'Saiba como uma Holding pode proteger seu patrimônio pessoal e facilitar o processo de sucessão familiar.',
+  date: '10 Fev 2024',
+  author: 'Equipe IVVA',
+  category: 'Gestão Patrimonial',
+  image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+  content: [
+    "A holding patrimonial é uma empresa criada para administrar bens e direitos, como imóveis e participações societárias.",
+    "Ela é amplamente utilizada como ferramenta de organização patrimonial e planejamento sucessório.",
+    "Com a holding, é possível estruturar regras claras de gestão e sucessão, reduzindo conflitos familiares futuros.",
+    "Além disso, dependendo da estrutura, pode haver benefícios tributários na administração de imóveis e rendimentos.",
+    "Cada caso deve ser analisado individualmente para garantir segurança jurídica e eficiência fiscal."
+  ]
+},
+{
+  id: 4,
+  title: 'Distribuição de Lucros: Regras e Vantagens',
+  excerpt: 'Aprenda como funciona a distribuição de lucros isenta de impostos e como utilizá-la para remunerar os sócios.',
+  date: '05 Fev 2024',
+  author: 'Equipe IVVA',
+  category: 'Financeiro',
+  image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+  content: [
+    "A distribuição de lucros é a forma legal de remunerar os sócios com base no resultado da empresa.",
+    "Quando a empresa possui contabilidade regular e lucro devidamente apurado, a distribuição pode ser isenta de imposto de renda para a pessoa física.",
+    "É importante diferenciar pró-labore de distribuição de lucros, pois o pró-labore sofre incidência de INSS e IR.",
+    "A ausência de controle contábil adequado pode gerar riscos fiscais e questionamentos futuros.",
+    "Uma boa organização financeira permite que os sócios recebam seus resultados com segurança e eficiência tributária."
+  ]
+}
 ];
 
 export default function Blog() {
+    const [openPostId, setOpenPostId] = useState<number | null>(null);
+
+  function togglePost(id: number) {
+    setOpenPostId(prev => (prev === id ? null : id));
+  }
   return (
     <div className="pt-20">
       <SEO 
@@ -84,14 +118,29 @@ export default function Blog() {
                 <p className="text-slate-600 text-sm mb-6 line-clamp-3 flex-grow">
                   {post.excerpt}
                 </p>
+                {openPostId === post.id && (
+  <div className="mt-4 space-y-3 text-sm text-slate-600 leading-relaxed border-t pt-4">
+    {post.content?.map((paragraph, index) => (
+      <p key={index}>{paragraph}</p>
+    ))}
+  </div>
+)}
                 <div className="pt-4 border-t border-slate-100 flex items-center justify-between mt-auto">
                   <div className="flex items-center text-sm text-slate-500">
                     <User size={14} className="mr-2" />
                     {post.author}
                   </div>
-                  <Link to="#" className="text-blue-600 font-medium text-sm flex items-center hover:text-blue-800">
-                    Ler mais <ArrowRight size={14} className="ml-1" />
-                  </Link>
+                 <button
+  type="button"
+  onClick={() => togglePost(post.id)}
+  className="text-blue-600 font-medium text-sm flex items-center hover:text-blue-800"
+>
+  {openPostId === post.id ? "Fechar" : "Ler mais"}{" "}
+  <ArrowRight
+    size={14}
+    className={`ml-1 transition-transform ${openPostId === post.id ? "rotate-90" : ""}`}
+  />
+</button>
                 </div>
               </div>
             </article>
