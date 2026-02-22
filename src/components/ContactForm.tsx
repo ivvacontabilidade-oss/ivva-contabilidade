@@ -9,6 +9,7 @@ export default function ContactForm() {
   action="https://formsubmit.co/contato@ivvacontabilidade.online"
   method="POST"
 >
+  <input type="hidden" name="_next" value="https://ivvacontabilidade.online/obrigado" />
   <input type="hidden" name="_subject" value="Novo contato pelo site - IVVA Contabilidade" />
   <input type="hidden" name="_template" value="table" />
   <input type="hidden" name="_captcha" value="false" />
