@@ -12,7 +12,6 @@ export default function ContactForm() {
   <input type="hidden" name="_subject" value="Novo contato pelo site - IVVA Contabilidade" />
   <input type="hidden" name="_template" value="table" />
   <input type="hidden" name="_captcha" value="false" />
-  <input type="hidden" name="_next" value="https://ivvacontabilidade.online/contato?enviado=1" />
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-1">Nome Completo</label>
            <input
