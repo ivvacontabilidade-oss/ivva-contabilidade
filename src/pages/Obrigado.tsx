@@ -37,7 +37,7 @@ export default function Obrigado() {
               </Link>
 
               <a
-                href="https://wa.me/5562999999999?text=Olá!%20Enviei%20uma%20mensagem%20pelo%20site%20e%20gostaria%20de%20um%20retorno."
+                href="https://wa.me/5562991872371?text=Olá!%20Enviei%20uma%20mensagem%20pelo%20site%20e%20gostaria%20de%20um%20retorno."
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-slate-900 text-white font-semibold hover:bg-slate-800 transition"
