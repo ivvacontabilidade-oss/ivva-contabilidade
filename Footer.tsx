@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
           
           {/* Company Info */}
           <div>
@@ -15,7 +15,7 @@ export default function Footer() {
               <img 
                 src="https://i.ibb.co/XkSfcSRD/logo-ivva-transparente.png" 
                 alt="IVVA Contabilidade" 
-                className="w-[260px] h-auto object-contain"
+                className="w-48 lg:w-56 h-auto object-contain"
               />
             </div>
 
