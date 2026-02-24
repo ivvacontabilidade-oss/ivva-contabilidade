@@ -46,7 +46,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Solutions - IVVA CRED */}
+         {/* Solutions - IVVA CRED */}
 <div>
   <h3 className="text-white font-semibold mb-6 uppercase text-sm tracking-wider lg:mt-8">
     Soluções
@@ -54,34 +54,43 @@ export default function Footer() {
 
   <ul className="space-y-3 text-sm">
     <li>
-      <Link to="/ivva-cred" className="hover:text-blue-400 transition-colors">
+      <Link
+        to="/ivva-cred"
+        className="hover:text-blue-400 transition-colors font-semibold"
+      >
+        IVVA Cred
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="/ivva-cred"
+        className="hover:text-blue-400 transition-colors"
+      >
         Crédito Empresarial
       </Link>
     </li>
 
     <li>
-      <Link to="/ivva-cred" className="hover:text-blue-400 transition-colors">
+      <Link
+        to="/ivva-cred"
+        className="hover:text-blue-400 transition-colors"
+      >
         Consórcios
       </Link>
     </li>
 
     <li>
-      <Link to="/ivva-cred" className="hover:text-blue-400 transition-colors">
+      <Link
+        to="/ivva-cred"
+        className="hover:text-blue-400 transition-colors"
+      >
         Seguros Empresariais
       </Link>
     </li>
   </ul>
-
-  <div className="mt-6">
-    <Link
-      to="/ivva-cred"
-      className="text-blue-400 font-semibold hover:text-blue-300 transition-colors"
-    >
-      IVVA Cred →
-    </Link>
-  </div>
 </div>
-          
+        
           {/* Contact Info */}
           <div>
             <h3 className="text-white font-semibold mb-6 uppercase text-sm tracking-wider lg:mt-8">Contato</h3>
