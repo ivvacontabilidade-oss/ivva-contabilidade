@@ -117,7 +117,7 @@ export default function IvvaCred() {
                 rel="noreferrer"
                 className="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-slate-900 text-white font-bold px-5 py-3 hover:bg-slate-800 transition-colors"
               >
-                Quero avaliar meu caso
+                Falar sobre crédito
                 <ArrowRight size={16} className="ml-2" />
               </a>
             </div>
@@ -152,7 +152,7 @@ export default function IvvaCred() {
                 rel="noreferrer"
                 className="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-slate-900 text-white font-bold px-5 py-3 hover:bg-slate-800 transition-colors"
               >
-                Quero entender opções
+                Simular consórcio
                 <ArrowRight size={16} className="ml-2" />
               </a>
             </div>
@@ -187,7 +187,7 @@ export default function IvvaCred() {
                 rel="noreferrer"
                 className="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-slate-900 text-white font-bold px-5 py-3 hover:bg-slate-800 transition-colors"
               >
-                Quero cotar com consultoria
+                Cotar seguro agora
                 <ArrowRight size={16} className="ml-2" />
               </a>
             </div>
