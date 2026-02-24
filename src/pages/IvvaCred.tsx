@@ -1,5 +1,6 @@
 import { ArrowRight, CheckCircle2, MessageCircle } from "lucide-react";
 import SEO from "../components/SEO";
+import IvvaCredLogo from '../assets/ivva-cred.png';
 
 // ✅ WhatsApp IVVA
 const WHATSAPP_LINK =
@@ -37,9 +38,13 @@ export default function IvvaCred() {
               IVVA CRED • SOLUÇÕES EM CRÉDITO PARA EMPRESAS
             </p>
 
-            <h1 className="mt-6 text-4xl md:text-5xl font-bold text-white leading-tight">
-              IVVA Cred
-            </h1>
+            <div className="mt-6">
+  <img
+    src={IvvaCredLogo}
+    alt="IVVA Cred"
+    className="h-16 md:h-20 object-contain"
+  />
+</div>
 
             <p className="mt-4 text-xl text-slate-200">
               Soluções em <span className="font-semibold">crédito</span>,{" "}
