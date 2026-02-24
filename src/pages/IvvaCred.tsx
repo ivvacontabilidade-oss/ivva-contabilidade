@@ -35,18 +35,27 @@ export default function IvvaCred() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="max-w-2xl">
             <p className="inline-flex items-center rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-semibold tracking-wide text-white">
-              IVVA CRED • SOLUÇÕES EM CRÉDITO PARA EMPRESAS
-            </p>
+  Soluções em crédito para empresas
+</p>
 
-            <div className="mt-6">
-  <img 
-  src={IvvaCredLogo}
-  alt="IVVA Cred"
-  className="w-40 md:w-52 lg:w-64 mb-8"
-/>
+<div className="mt-8 flex items-center gap-4">
+  <img
+    src={IvvaCredLogo}
+    alt="IVVA Cred"
+    className="h-12 md:h-14 lg:h-16 w-auto object-contain drop-shadow"
+  />
+
+  <div>
+    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
+      IVVA Cred
+    </h1>
+    <p className="text-slate-300 text-sm md:text-base">
+      Financiamentos • Consórcios • Seguros
+    </p>
+  </div>
 </div>
 
-            <p className="mt-4 text-xl text-slate-200">
+            <p className="mt-6 text-xl text-slate-200">
               Soluções em <span className="font-semibold">crédito</span>,{" "}
               <span className="font-semibold">consórcio</span> e{" "}
               <span className="font-semibold">seguros</span> para empresas.
