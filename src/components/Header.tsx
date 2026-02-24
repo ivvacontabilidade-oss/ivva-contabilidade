@@ -10,6 +10,7 @@ export default function Header() {
     { name: 'Início', href: '/' },
     { name: 'Sobre Nós', href: '/sobre' },
     { name: 'Serviços', href: '/servicos' },
+    { name: 'IVVA Cred', href: '/ivva-cred' },
     { name: 'Blog', href: '/blog' },
     { name: 'Contato', href: '/contato' },
   ];

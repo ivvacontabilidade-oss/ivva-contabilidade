@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Blog from './pages/Blog';
+import IvvaCred from './pages/IvvaCred';
 import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import Obrigado from "./pages/Obrigado";
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/sobre" element={<About />} />
             <Route path="/servicos" element={<Services />} />
+            <Route path="/ivva-cred" element={<IvvaCred />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/contato" element={<Contact />} />
             <Route path="/obrigado" element={<Obrigado />} />
