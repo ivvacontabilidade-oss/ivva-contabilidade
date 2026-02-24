@@ -39,11 +39,11 @@ export default function IvvaCred() {
             </p>
 
             <div className="mt-6">
-  <img
-    src={IvvaCredLogo}
-    alt="IVVA Cred"
-    className="h-16 md:h-20 object-contain"
-  />
+  <img 
+  src={IvvaCredLogo}
+  alt="IVVA Cred"
+  className="w-40 md:w-52 lg:w-64 mb-8"
+/>
 </div>
 
             <p className="mt-4 text-xl text-slate-200">
