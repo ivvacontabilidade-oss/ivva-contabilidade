@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           
           {/* Company Info */}
           <div>
@@ -46,6 +46,51 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Solutions - IVVA CRED */}
+<div>
+  <h3 className="text-white font-semibold mb-6 uppercase text-sm tracking-wider lg:mt-8">
+    Soluções
+  </h3>
+
+  <ul className="space-y-3 text-sm">
+    <li>
+      <Link
+        to="/ivva-cred"
+        className="hover:text-blue-400 transition-colors"
+      >
+        Crédito Empresarial
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="/ivva-cred"
+        className="hover:text-blue-400 transition-colors"
+      >
+        Consórcios
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="/ivva-cred"
+        className="hover:text-blue-400 transition-colors"
+      >
+        Seguros Empresariais
+      </Link>
+    </li>
+  </ul>
+
+  <div className="mt-6">
+    <Link
+      to="/ivva-cred"
+      className="text-blue-400 font-semibold hover:text-blue-300 transition-colors"
+    >
+      IVVA Cred →
+    </Link>
+  </div>
+</div>
+          
           {/* Contact Info */}
           <div>
             <h3 className="text-white font-semibold mb-6 uppercase text-sm tracking-wider lg:mt-8">Contato</h3>
