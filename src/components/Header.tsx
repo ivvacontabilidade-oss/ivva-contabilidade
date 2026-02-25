@@ -53,7 +53,7 @@ export default function Header() {
       : "https://i.ibb.co/XZMwp3xR/logo-ivva-master-transparente.png"
   } 
   alt={isCred ? "IVVA Cred" : "IVVA Contabilidade"} 
-  className="h-16 md:h-18 lg:h-20 w-auto object-contain transition-all duration-200"
+  className="w-[200px] h-[120px] object-contain"
 />
             </Link>
           </div>
