@@ -14,10 +14,10 @@ export default function Footer() {
 <div>
   <div className="mb-6">
     <img
-      src={GrupoIvvaLogo}
-      alt="Grupo IVVA"
-      className="w-48 h-auto object-contain"
-    />
+  src={GrupoIvvaLogo}
+  alt="Grupo IVVA"
+  className="w-44 h-auto object-contain -ml-2"
+/>
   </div>
 
   <p className="text-xs uppercase tracking-wider text-slate-400 mb-3">
