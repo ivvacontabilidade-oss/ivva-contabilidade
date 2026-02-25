@@ -155,73 +155,41 @@ export default function IvvaCred() {
               </a>
             </div>
 
-            {/* Card 3 */}
-            <div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-bold text-slate-900">
-                Seguros Empresariais
-              </h3>
-              <p className="mt-3 text-slate-600">
-                Proteção da operação, do patrimônio e da continuidade do negócio.
-              </p>
-
-              <ul className="mt-5 space-y-2 text-slate-700">
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="mt-0.5" size={18} />
-                  Seguro empresarial
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="mt-0.5" size={18} />
-                  Responsabilidade civil
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle2 className="mt-0.5" size={18} />
-                  Proteções sob demanda
-                </li>
-              </ul>
-              <div className="mt-16 max-w-3xl mx-auto text-center">
-  <h3 className="text-2xl font-bold text-slate-900">
-    Empresa estruturada cresce de forma sustentável.
+{/* Card 3 */}
+<div className="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 hover:shadow-lg transition-shadow">
+  <h3 className="text-xl font-bold text-slate-900">
+    Seguros Empresariais
   </h3>
 
-  <p className="mt-4 text-slate-600">
-    Operações financeiras bem planejadas fortalecem o caixa, ampliam capacidade
-    de investimento e protegem o patrimônio.
+  <p className="mt-3 text-slate-600">
+    Proteção da operação, do patrimônio e da continuidade do negócio.
   </p>
 
-  <p className="mt-4 text-slate-600">
-    Despesas com crédito, consórcios, seguros e benefícios empresariais podem
-    ser dedutíveis no Imposto de Renda da Pessoa Jurídica, gerando eficiência
-    tributária e redução de carga fiscal.
-  </p>
+  <ul className="mt-5 space-y-2 text-slate-700">
+    <li className="flex items-start gap-2">
+      <CheckCircle2 className="mt-0.5" size={18} />
+      Seguro empresarial
+    </li>
+    <li className="flex items-start gap-2">
+      <CheckCircle2 className="mt-0.5" size={18} />
+      Responsabilidade civil
+    </li>
+    <li className="flex items-start gap-2">
+      <CheckCircle2 className="mt-0.5" size={18} />
+      Proteções sob demanda
+    </li>
+  </ul>
 
-  <p className="mt-4 text-slate-600">
-    Atuamos também com planos de saúde empresariais e cartões de benefícios
-    corporativos, como VR, VA e soluções flexíveis para retenção de talentos.
-  </p>
-
-  <p className="mt-6 font-semibold text-slate-900">
-    Somos um hub completo de soluções empresariais.
-  </p>
-                <p className="mt-4 text-slate-600">
-  Crédito para expandir. Consórcio para planejar. Seguros para proteger.
-  Benefícios para valorizar sua equipe.
-</p>
-
-<p className="mt-4 text-slate-600">
-  Tudo estruturado com inteligência tributária e visão estratégica.
-</p>
+  <a
+    href={WHATSAPP_LINK}
+    target="_blank"
+    rel="noreferrer"
+    className="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-slate-900 text-white font-bold px-5 py-3 hover:bg-slate-800 transition-colors"
+  >
+    Cotar seguro agora
+    <ArrowRight size={16} className="ml-2" />
+  </a>
 </div>
-
-              <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noreferrer"
-                className="mt-6 inline-flex w-full items-center justify-center rounded-lg bg-slate-900 text-white font-bold px-5 py-3 hover:bg-slate-800 transition-colors"
-              >
-                Cotar seguro agora
-                <ArrowRight size={16} className="ml-2" />
-              </a>
-            </div>
           </div>
         </div>
       </section>
