@@ -78,6 +78,7 @@ export default function IvvaCred() {
           <ArrowRight size={16} className="ml-2" />
         </a>
       </div>
+      </div>
 </section>
 
       {/* SOLUÇÕES */}
