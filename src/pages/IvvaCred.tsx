@@ -77,11 +77,10 @@ export default function IvvaCred() {
       <section id="solucoes" className="bg-slate-50 border-y border-slate-200 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <h2 className="text-3xl font-bold text-slate-900 text-center">
-            Soluções em crédito para empresas
+            Estruturamos soluções financeiras para cada fase do seu negócio
           </h2>
           <p className="mt-3 text-slate-600 text-center max-w-2xl mx-auto">
-            Escolha o caminho mais adequado para sua demanda — com clareza e
-            atendimento consultivo.
+            Soluções integradas para empresas que querem crescer com estrutura
           </p>
 
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
