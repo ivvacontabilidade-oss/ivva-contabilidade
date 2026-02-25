@@ -50,7 +50,7 @@ export default function IvvaCred() {
 
       {/* HEADLINE */}
       <h1 className="mt-6 text-2xl md:text-3xl font-bold text-white leading-tight">
-        Financiamentos, consórcios e seguros para sua empresa — com orientação consultiva.
+        Financiamentos, consórcios e seguros para sua empresa.
       </h1>
 
       {/* SUBTEXTO */}
