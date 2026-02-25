@@ -40,13 +40,14 @@ export default function IvvaCred() {
 
       {/* HEADLINE */}
       <h1 className="mt-6 text-2xl md:text-3xl font-bold text-white leading-tight">
-        Financiamentos, consórcios e seguros para sua empresa.
-      </h1>
+  Crédito, consórcio, seguros e benefícios empresariais em um só lugar.
+</h1>
 
       {/* SUBTEXTO */}
       <p className="mt-4 text-slate-200/90">
-        Simulamos opções e indicamos o melhor caminho para sua necessidade, com clareza e agilidade.
-      </p>
+  Organizamos as melhores soluções para sua empresa crescer com estrutura,
+  proteção e inteligência financeira.
+</p>
 
       {/* BOTÕES */}
       <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -177,6 +178,39 @@ export default function IvvaCred() {
                   Proteções sob demanda
                 </li>
               </ul>
+              <div className="mt-16 max-w-3xl mx-auto text-center">
+  <h3 className="text-2xl font-bold text-slate-900">
+    Empresa estruturada cresce de forma sustentável.
+  </h3>
+
+  <p className="mt-4 text-slate-600">
+    Operações financeiras bem planejadas fortalecem o caixa, ampliam capacidade
+    de investimento e protegem o patrimônio.
+  </p>
+
+  <p className="mt-4 text-slate-600">
+    Despesas com crédito, consórcios, seguros e benefícios empresariais podem
+    ser dedutíveis no Imposto de Renda da Pessoa Jurídica, gerando eficiência
+    tributária e redução de carga fiscal.
+  </p>
+
+  <p className="mt-4 text-slate-600">
+    Atuamos também com planos de saúde empresariais e cartões de benefícios
+    corporativos, como VR, VA e soluções flexíveis para retenção de talentos.
+  </p>
+
+  <p className="mt-6 font-semibold text-slate-900">
+    Somos um hub completo de soluções empresariais.
+  </p>
+                <p className="mt-4 text-slate-600">
+  Crédito para expandir. Consórcio para planejar. Seguros para proteger.
+  Benefícios para valorizar sua equipe.
+</p>
+
+<p className="mt-4 text-slate-600">
+  Tudo estruturado com inteligência tributária e visão estratégica.
+</p>
+</div>
 
               <a
                 href={WHATSAPP_LINK}
