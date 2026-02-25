@@ -193,50 +193,53 @@ export default function IvvaCred() {
        <section className="bg-slate-900 py-24 mt-16">
   <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
+    <section className="bg-slate-900 py-24 mt-16">
+  <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
     <div className="text-center mb-16">
       <h3 className="text-3xl font-bold text-white">
-        Mais do que crédito. Estrutura para crescer.
+        Mais que crédito. Estrutura para crescer.
       </h3>
+
       <p className="mt-4 text-slate-300 max-w-2xl mx-auto">
-        Conectamos sua empresa às melhores soluções financeiras e benefícios corporativos com visão estratégica.
+        Capital bem direcionado, juros competitivos e decisões que aumentam a eficiência da empresa.
       </p>
     </div>
 
     <div className="grid md:grid-cols-3 gap-10 text-left">
+
       <div>
         <h4 className="text-lg font-semibold text-white mb-3">
-          Caixa e expansão
+          Melhor uso do capital
         </h4>
         <p className="text-slate-300">
-          Crédito estruturado para capital de giro, expansão e investimentos.
+          Avaliação de taxas, prazos e impacto no fluxo de caixa para reduzir custo financeiro.
         </p>
       </div>
 
       <div>
         <h4 className="text-lg font-semibold text-white mb-3">
-          Planejamento e proteção
+          Economia tributária
         </h4>
         <p className="text-slate-300">
-          Consórcios e seguros para proteger patrimônio e organizar crescimento.
+          Operações que podem gerar dedução no IRPJ conforme regime e enquadramento da empresa.
         </p>
       </div>
 
       <div>
         <h4 className="text-lg font-semibold text-white mb-3">
-          Benefícios e equipe
+          Proteção e previsibilidade
         </h4>
         <p className="text-slate-300">
-          Planos de saúde e cartões de benefícios (VR/VA) para retenção e performance.
+          Seguros, planos empresariais e benefícios corporativos que reduzem riscos e fortalecem a operação.
         </p>
       </div>
+
     </div>
 
     <div className="text-center mt-16">
       <p className="text-white font-semibold">
-        Grupo IVVA — um hub completo de soluções empresariais.
-      </p>
-      <p className="mt-3 text-xs text-slate-400 max-w-3xl mx-auto">
-        Despesas com operações financeiras, seguros e benefícios podem ser dedutíveis no IRPJ conforme enquadramento e regras aplicáveis. Consulte nossa equipe para validação do seu caso.
+        Grupo IVVA — inteligência aplicada ao capital da sua empresa.
       </p>
     </div>
 
