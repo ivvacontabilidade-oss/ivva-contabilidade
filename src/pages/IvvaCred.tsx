@@ -213,9 +213,10 @@ export default function IvvaCred() {
   </p>
 
   <p className="mt-6 font-semibold text-slate-900">
-    A IVVA Cred é um hub completo de soluções empresariais.
+    A Grupo IVVA é um hub completo de soluções empresariais.
   </p>
 </div>
+        
       </section>
 
       {/* CTA FINAL */}
