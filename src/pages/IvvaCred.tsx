@@ -39,19 +39,45 @@ export default function IvvaCred() {
 </p>
 
 <div className="mt-8 flex items-center gap-4">
-  <img
-    src={IvvaCredLogo}
-    alt="IVVA Cred"
-    className="h-12 md:h-14 lg:h-16 w-auto object-contain drop-shadow"
-  />
+  <div className="max-w-2xl">
+  <p className="inline-flex items-center rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-semibold tracking-wide text-white">
+    IVVA CRED • SOLUÇÕES EM CRÉDITO PARA EMPRESAS
+  </p>
 
-  <div>
-    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight">
-      IVVA Cred
-    </h1>
-    <p className="text-slate-300 text-sm md:text-base">
-      Financiamentos • Consórcios • Seguros
-    </p>
+  <div className="mt-8">
+    <img
+      src={IvvaCredLogo}
+      alt="IVVA Cred"
+      className="h-16 md:h-20 w-auto object-contain"
+    />
+  </div>
+
+  <p className="mt-6 text-2xl md:text-3xl font-bold text-white leading-tight">
+    Financiamentos, consórcios e seguros para sua empresa, com orientação consultiva.
+  </p>
+
+  <p className="mt-4 text-slate-200/90">
+    Simulamos opções e indicamos o melhor caminho para sua necessidade — com clareza e agilidade.
+  </p>
+
+  <div className="mt-8 flex flex-col sm:flex-row gap-3">
+    <a
+      href={WHATSAPP_LINK}
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex items-center justify-center rounded-lg bg-white text-slate-900 font-bold px-6 py-3 hover:bg-slate-100 transition-colors"
+    >
+      <MessageCircle size={18} className="mr-2" />
+      Falar com Especialista
+    </a>
+
+    <a
+      href="#solucoes"
+      className="inline-flex items-center justify-center rounded-lg border border-white/25 bg-white/10 text-white font-bold px-6 py-3 hover:bg-white/15 transition-colors"
+    >
+      Ver soluções
+      <ArrowRight size={16} className="ml-2" />
+    </a>
   </div>
 </div>
 
