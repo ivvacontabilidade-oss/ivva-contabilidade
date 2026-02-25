@@ -16,7 +16,7 @@ export default function Footer() {
     <img
   src={GrupoIvvaLogo}
   alt="Grupo IVVA"
-  className="w-44 h-auto object-contain -ml-2"
+  className="w-44 h-auto object-contain -ml-3"
 />
   </div>
 
