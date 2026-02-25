@@ -79,8 +79,8 @@ export default function IvvaCred() {
             Estruturamos soluções financeiras para cada fase do seu negócio
           </h2>
           <p className="mt-3 text-slate-600 text-center max-w-2xl mx-auto">
-            Conectamos sua empresa às melhores oportunidades financeiras do mercado.
-          </p>
+  Escolha o que sua empresa precisa agora — e nós cuidamos do caminho até a contratação.
+</p>
 
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Card 1 */}
