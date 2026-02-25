@@ -192,14 +192,38 @@ export default function IvvaCred() {
 </div>
           </div>
         </div>
+        <div className="mt-16 max-w-3xl mx-auto text-center">
+  <h3 className="text-2xl font-bold text-slate-900">
+    Crescimento empresarial exige estrutura financeira inteligente.
+  </h3>
+
+  <p className="mt-4 text-slate-600">
+    Crédito fortalece o caixa. Consórcio organiza investimentos.
+    Seguros protegem o patrimônio. Benefícios valorizam sua equipe.
+  </p>
+
+  <p className="mt-4 text-slate-600">
+    Muitas dessas despesas podem ser dedutíveis no Imposto de Renda da Pessoa Jurídica,
+    contribuindo para eficiência tributária e melhor gestão financeira.
+  </p>
+
+  <p className="mt-4 text-slate-600">
+    Atuamos também com planos de saúde empresariais e cartões de benefícios
+    (VR, VA e soluções flexíveis), apoiando retenção de talentos e organização interna.
+  </p>
+
+  <p className="mt-6 font-semibold text-slate-900">
+    A IVVA Cred é um hub completo de soluções empresariais.
+  </p>
+</div>
       </section>
 
       {/* CTA FINAL */}
       <section className="bg-white">
         <div className="max-w-4xl mx-auto px-4 py-16 text-center">
           <h2 className="text-3xl font-bold text-slate-900">
-            Me diga sua demanda e eu te retorno com uma proposta objetiva.
-          </h2>
+  Fale com um especialista e descubra a melhor estratégia para sua empresa.
+</h2>
           <a
             href={WHATSAPP_LINK}
             target="_blank"
