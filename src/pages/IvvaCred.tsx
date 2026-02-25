@@ -19,101 +19,68 @@ export default function IvvaCred() {
         canonical="https://ivvacontabilidade.online/ivva-cred"
       />
 
-      {/* HERO */}
-      <section className="relative overflow-hidden">
-        <div className="absolute inset-0">
-          <img
-            src={HERO_BG}
-            alt="Cidade"
-            className="h-full w-full object-cover"
-            referrerPolicy="no-referrer"
-          />
-          <div className="absolute inset-0 bg-slate-950/70" />
-          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/70 via-slate-950/40 to-slate-950/20" />
-        </div>
-
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-          <div className="max-w-2xl">
-            <p className="inline-flex items-center rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-semibold tracking-wide text-white">
-  Soluções em crédito para empresas
-</p>
-
-<div className="mt-8 flex items-center gap-4">
-  <div className="max-w-2xl">
-  <p className="inline-flex items-center rounded-full border border-white/15 bg-white/10 px-4 py-2 text-xs font-semibold tracking-wide text-white">
-    IVVA CRED • SOLUÇÕES EM CRÉDITO PARA EMPRESAS
-  </p>
-
-  <div className="mt-8">
+     {/* HERO */}
+<section className="relative overflow-hidden">
+  <div className="absolute inset-0">
     <img
-      src={IvvaCredLogo}
-      alt="IVVA Cred"
-      className="h-16 md:h-20 w-auto object-contain"
+      src={HERO_BG}
+      alt="Cidade"
+      className="h-full w-full object-cover"
+      referrerPolicy="no-referrer"
     />
+    <div className="absolute inset-0 bg-slate-950/70" />
+    <div className="absolute inset-0 bg-gradient-to-r from-slate-950/70 via-slate-950/40 to-slate-950/20" />
   </div>
 
-  <p className="mt-6 text-2xl md:text-3xl font-bold text-white leading-tight">
-    Financiamentos, consórcios e seguros para sua empresa, com orientação consultiva.
-  </p>
+  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div className="max-w-2xl">
+      {/* PILL (maior) */}
+      <p className="inline-flex items-center rounded-full border border-white/20 bg-white/10 px-6 py-3 text-sm md:text-base font-semibold tracking-wide text-white backdrop-blur-sm">
+        IVVA CRED • SOLUÇÕES EM CRÉDITO PARA EMPRESAS
+      </p>
 
-  <p className="mt-4 text-slate-200/90">
-    Simulamos opções e indicamos o melhor caminho para sua necessidade — com clareza e agilidade.
-  </p>
+      {/* LOGO */}
+      <div className="mt-8">
+        <img
+          src={IvvaCredLogo}
+          alt="IVVA Cred"
+          className="h-16 md:h-20 w-auto object-contain"
+        />
+      </div>
 
-  <div className="mt-8 flex flex-col sm:flex-row gap-3">
-    <a
-      href={WHATSAPP_LINK}
-      target="_blank"
-      rel="noreferrer"
-      className="inline-flex items-center justify-center rounded-lg bg-white text-slate-900 font-bold px-6 py-3 hover:bg-slate-100 transition-colors"
-    >
-      <MessageCircle size={18} className="mr-2" />
-      Falar com Especialista
-    </a>
+      {/* HEADLINE */}
+      <h1 className="mt-6 text-2xl md:text-3xl font-bold text-white leading-tight">
+        Financiamentos, consórcios e seguros para sua empresa — com orientação consultiva.
+      </h1>
 
-    <a
-      href="#solucoes"
-      className="inline-flex items-center justify-center rounded-lg border border-white/25 bg-white/10 text-white font-bold px-6 py-3 hover:bg-white/15 transition-colors"
-    >
-      Ver soluções
-      <ArrowRight size={16} className="ml-2" />
-    </a>
+      {/* SUBTEXTO */}
+      <p className="mt-4 text-slate-200/90">
+        Simulamos opções e indicamos o melhor caminho para sua necessidade, com clareza e agilidade.
+      </p>
+
+      {/* BOTÕES */}
+      <div className="mt-8 flex flex-col sm:flex-row gap-3">
+        <a
+          href={WHATSAPP_LINK}
+          target="_blank"
+          rel="noreferrer"
+          className="inline-flex items-center justify-center rounded-lg bg-white text-slate-900 font-bold px-6 py-3 hover:bg-slate-100 transition-colors"
+        >
+          <MessageCircle size={18} className="mr-2" />
+          Falar com Especialista
+        </a>
+
+        <a
+          href="#solucoes"
+          className="inline-flex items-center justify-center rounded-lg border border-white/25 bg-white/10 text-white font-bold px-6 py-3 hover:bg-white/15 transition-colors"
+        >
+          Ver soluções
+          <ArrowRight size={16} className="ml-2" />
+        </a>
+      </div>
+    </div>
   </div>
-</div>
-
-            <p className="mt-6 text-xl text-slate-200">
-              Soluções em <span className="font-semibold">crédito</span>,{" "}
-              <span className="font-semibold">consórcio</span> e{" "}
-              <span className="font-semibold">seguros</span> para empresas.
-            </p>
-
-            <p className="mt-4 text-slate-200/90">
-              Estruturamos opções conforme a necessidade do seu negócio, com
-              atendimento consultivo e direcionamento para a melhor alternativa.
-            </p>
-
-            <div className="mt-8 flex flex-col sm:flex-row gap-3">
-              <a
-                href={WHATSAPP_LINK}
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center justify-center rounded-lg bg-white text-slate-900 font-bold px-6 py-3 hover:bg-slate-100 transition-colors"
-              >
-                <MessageCircle size={18} className="mr-2" />
-                Falar com Especialista
-              </a>
-
-              <a
-                href="#solucoes"
-                className="inline-flex items-center justify-center rounded-lg border border-white/25 bg-white/10 text-white font-bold px-6 py-3 hover:bg-white/15 transition-colors"
-              >
-                Ver soluções
-                <ArrowRight size={16} className="ml-2" />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+</section>
 
       {/* SOLUÇÕES */}
       <section id="solucoes" className="bg-slate-50 border-y border-slate-200">
