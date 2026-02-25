@@ -1,5 +1,6 @@
 import { Phone, Mail, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import GrupoIvvaLogo from "../assets/logo-grupo-ivva.png";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,18 +10,40 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           
-          {/* Company Info */}
-          <div>
-            <div className="mb-6">
-              <img 
-                src="https://i.ibb.co/XkSfcSRD/logo-ivva-transparente.png" 
-                alt="IVVA Contabilidade" 
-                className="w-[260px] h-auto object-contain"
-              />
-            </div>
+          {/* Grupo IVVA */}
+<div>
+  <div className="mb-6">
+    <img
+      src={GrupoIvvaLogo}
+      alt="Grupo IVVA"
+      className="w-48 h-auto object-contain"
+    />
+  </div>
 
+  <p className="text-xs uppercase tracking-wider text-slate-400 mb-3">
+    Unidades
+  </p>
 
-          </div>
+  <ul className="space-y-2 text-sm">
+    <li>
+      <Link
+        to="/"
+        className="hover:text-blue-400 transition-colors"
+      >
+        IVVA Contabilidade
+      </Link>
+    </li>
+
+    <li>
+      <Link
+        to="/ivva-cred"
+        className="hover:text-blue-400 transition-colors"
+      >
+        IVVA Cred
+      </Link>
+    </li>
+  </ul>
+</div>
 
           {/* Quick Links */}
           <div>
