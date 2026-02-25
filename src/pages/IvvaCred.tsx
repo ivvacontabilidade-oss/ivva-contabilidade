@@ -45,8 +45,7 @@ export default function IvvaCred() {
 
       {/* SUBTEXTO */}
       <p className="mt-4 text-slate-200/90">
-  Organizamos as melhores soluções para sua empresa crescer com estrutura,
-  proteção e inteligência financeira.
+  Buscamos, analisamos e identificamos as melhores oportunidades financeiras para sua empresa crescer com estratégia e segurança.
 </p>
 
       {/* BOTÕES */}
@@ -80,7 +79,7 @@ export default function IvvaCred() {
             Estruturamos soluções financeiras para cada fase do seu negócio
           </h2>
           <p className="mt-3 text-slate-600 text-center max-w-2xl mx-auto">
-            Soluções integradas para empresas que querem crescer com estrutura
+            Conectamos sua empresa às melhores oportunidades financeiras do mercado.
           </p>
 
           <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
