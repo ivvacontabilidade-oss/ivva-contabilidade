@@ -190,30 +190,58 @@ export default function IvvaCred() {
 </div>
           </div>
         </div>
-        <div className="mt-16 max-w-3xl mx-auto text-center">
-  <h3 className="text-2xl font-bold text-slate-900">
-    Crescimento empresarial exige estrutura financeira inteligente.
-  </h3>
+       <section className="bg-slate-900 py-24 mt-16">
+  <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
-  <p className="mt-4 text-slate-600">
-    Crédito fortalece o caixa. Consórcio organiza investimentos.
-    Seguros protegem o patrimônio. Benefícios valorizam sua equipe.
-  </p>
+    <div className="text-center mb-16">
+      <h3 className="text-3xl font-bold text-white">
+        Mais do que crédito. Estrutura para crescer.
+      </h3>
+      <p className="mt-4 text-slate-300 max-w-2xl mx-auto">
+        Conectamos sua empresa às melhores soluções financeiras e benefícios corporativos com visão estratégica.
+      </p>
+    </div>
 
-  <p className="mt-4 text-slate-600">
-    Muitas dessas despesas podem ser dedutíveis no Imposto de Renda da Pessoa Jurídica,
-    contribuindo para eficiência tributária e melhor gestão financeira.
-  </p>
+    <div className="grid md:grid-cols-3 gap-10 text-left">
+      <div>
+        <h4 className="text-lg font-semibold text-white mb-3">
+          Caixa e expansão
+        </h4>
+        <p className="text-slate-300">
+          Crédito estruturado para capital de giro, expansão e investimentos.
+        </p>
+      </div>
 
-  <p className="mt-4 text-slate-600">
-    Atuamos também com planos de saúde empresariais e cartões de benefícios
-    (VR, VA e soluções flexíveis), apoiando retenção de talentos e organização interna.
-  </p>
+      <div>
+        <h4 className="text-lg font-semibold text-white mb-3">
+          Planejamento e proteção
+        </h4>
+        <p className="text-slate-300">
+          Consórcios e seguros para proteger patrimônio e organizar crescimento.
+        </p>
+      </div>
 
-  <p className="mt-6 font-semibold text-slate-900">
-    A Grupo IVVA é um hub completo de soluções empresariais.
-  </p>
-</div>
+      <div>
+        <h4 className="text-lg font-semibold text-white mb-3">
+          Benefícios e equipe
+        </h4>
+        <p className="text-slate-300">
+          Planos de saúde e cartões de benefícios (VR/VA) para retenção e performance.
+        </p>
+      </div>
+    </div>
+
+    <div className="text-center mt-16">
+      <p className="text-white font-semibold">
+        Grupo IVVA — um hub completo de soluções empresariais.
+      </p>
+      <p className="mt-3 text-xs text-slate-400 max-w-3xl mx-auto">
+        Despesas com operações financeiras, seguros e benefícios podem ser dedutíveis no IRPJ conforme enquadramento e regras aplicáveis. Consulte nossa equipe para validação do seu caso.
+      </p>
+    </div>
+
+  </div>
+</section>
         
       </section>
 
