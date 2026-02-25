@@ -10,21 +10,21 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           
-          {/* Grupo IVVA */}
-<div>
-  <div className="mb-6">
+         {/* Grupo IVVA */}
+<div className="flex flex-col items-start text-left">
+  <div className="w-44 overflow-hidden mb-8">
     <img
-  src={GrupoIvvaLogo}
-  alt="Grupo IVVA"
-  className="w-44 h-auto object-contain -ml-3"
-/>
+      src={GrupoIvvaLogo}
+      alt="Grupo IVVA"
+      className="block w-56 h-auto object-contain -ml-6"
+    />
   </div>
 
-  <p className="text-xs uppercase tracking-wider text-slate-400 mb-3">
+  <p className="text-xs uppercase tracking-wider text-slate-400 mb-4">
     Unidades
   </p>
 
-  <ul className="space-y-2 text-sm">
+  <ul className="space-y-3 text-sm">
     <li>
       <Link
         to="/"
