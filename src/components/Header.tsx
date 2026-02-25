@@ -1,10 +1,12 @@
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone, Mail, MapPin } from 'lucide-react';
 import { useState } from 'react';
+import IvvaCredLogoHeader from "../assets/ivva-cred-header.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const isCred = location.pathname.startsWith("/ivva-cred");
 
   const navigation = [
     { name: 'Início', href: '/' },
@@ -44,11 +46,15 @@ export default function Header() {
         <div className="flex justify-end items-center h-20">
           <div className="absolute left-4 top-1/2 -translate-y-1/2 z-10">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <img 
-                src="https://i.ibb.co/XZMwp3xR/logo-ivva-master-transparente.png" 
-                alt="IVVA Contabilidade" 
-                className="w-[200px] h-[120px] object-contain"
-              />
+             <img 
+  src={
+    isCred
+      ? IvvaCredLogoHeader
+      : "https://i.ibb.co/XZMwp3xR/logo-ivva-master-transparente.png"
+  } 
+  alt={isCred ? "IVVA Cred" : "IVVA Contabilidade"} 
+  className="w-[200px] h-[120px] object-contain"
+/>
             </Link>
           </div>
           
