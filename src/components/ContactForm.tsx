@@ -14,7 +14,13 @@ export default function ContactForm() {
           <input type="hidden" name="_subject" value="Novo contato pelo site - IVVA Contabilidade" />
           <input type="hidden" name="_template" value="table" />
           <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_honey" style={{ display: "none" }} />
+          <input
+  type="text"
+  name="_honey"
+  tabIndex={-1}
+  autoComplete="off"
+  className="hidden"
+/>
           <input
             type="hidden"
             name="_autoresponse"
