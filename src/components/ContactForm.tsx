@@ -63,7 +63,7 @@ export default function ContactForm() {
                 pattern="\(\d{2}\)\s\d{4,5}-\d{4}"
                 title="Informe um telefone válido com DDD"
                 className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
-                placeholder="(62) 99187-2371"
+                placeholder="(62) 99999-9999"
               />
             </div>
 
