@@ -37,14 +37,21 @@ export default function ContactForm() {
 />
             </div>
             <div>
-              <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-1">Telefone / WhatsApp</label>
-              <input
-                type="tel"
-                id="phone"
-                className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
-                placeholder="(00) 00000-0000"
-              />
-            </div>
+  <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-1">
+    Telefone / WhatsApp *
+  </label>
+
+  <input
+    type="tel"
+    id="phone"
+    name="phone"
+    required
+    pattern=".{10,}"
+    title="Informe um telefone válido com DDD"
+    className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
+    placeholder="(62) 9 9999-9999"
+  />
+</div>
           </div>
           <div>
             <label htmlFor="company" className="block text-sm font-medium text-slate-700 mb-1">Nome da Empresa</label>
