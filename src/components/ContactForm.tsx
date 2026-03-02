@@ -69,20 +69,22 @@ export default function ContactForm() {
                 pattern="\(\d{2}\)\s\d{4,5}-\d{4}"
                 title="Informe um telefone válido com DDD"
                 className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
-                placeholder="(00) 99999-9999"
+                placeholder="(62) 99999-9999"
               />
             </div>
 
             <div>
               <label className="block text-sm font-medium text-slate-700 mb-1">
-                E-mail
-              </label>
+  E-mail *
+</label>
               <input
-                type="email"
-                name="email"
-                className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
-                placeholder="seu@email.com"
-              />
+  type="email"
+  name="email"
+  required
+  autoComplete="email"
+  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
+  placeholder="seu@email.com"
+/>
             </div>
           </div>
 
