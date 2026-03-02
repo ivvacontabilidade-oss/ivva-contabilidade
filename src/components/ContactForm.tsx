@@ -105,11 +105,10 @@ export default function ContactForm() {
               O que você deseja resolver?
             </label>
             <select
-              name="goal"
-              defaultValue=""
-              required
-              className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all bg-white"
-            >
+  name="goal"
+  defaultValue=""
+  className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all bg-white"
+>
               <option value="" disabled>
                 Selecione uma opção
               </option>
