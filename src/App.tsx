@@ -29,7 +29,6 @@ function App() {
           </Routes>
         </main>
         <Footer />
-        <Footer />
 <WhatsappFloatingButton />
       </div>
     </Router>
