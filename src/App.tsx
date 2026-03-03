@@ -9,6 +9,7 @@ import IvvaCred from './pages/IvvaCred';
 import Contact from './pages/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import Obrigado from "./pages/Obrigado";
+import WhatsappFloatingButton from './components/WhatsappFloatingButton';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <Footer />
+<WhatsappFloatingButton />
       </div>
     </Router>
   );
